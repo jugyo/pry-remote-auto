@@ -22,4 +22,5 @@ class Object
   end
   alias_method :remote_pry_without_auto_launch, :remote_pry
   alias_method :remote_pry, :remote_pry_with_auto_launch
+  alias_method :pry_remote, :remote_pry
 end
