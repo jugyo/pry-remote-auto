@@ -26,6 +26,7 @@ class Object
 
       sleep 1
       system 'osascript', '-e', 'tell application "Terminal" to do script "' + cmd + '"'
+      system 'osascript', '-e', 'tell application "Terminal" to activate'
     end
     remote_pry_without_auto_launch(*args)
   end
